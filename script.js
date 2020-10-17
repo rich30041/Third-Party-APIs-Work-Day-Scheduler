@@ -16,7 +16,7 @@ $(document).ready(function () {
     var currentHour = moment().hours()
     // test hour coloring
     // var currentHour = 9
-    for (let i = 9; i <= 18; i++) {
+    for (let i = 9; i < 18; i++) {
         var row = $(`<div data-time=${i} id='${i}' class="row time-block"></div>`);
         if ( i == 9 ) {
         var col1 = $('<div class="col-sm-2 hour">' + "0" + i  + "00" + '</div>');
